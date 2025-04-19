@@ -50,6 +50,7 @@ function TicTacToe() {
   return (
     <div className="game">
       <h1>Tic Tac Toe</h1>
+      <h2 className="subtitle">(Vibe coded)</h2>
       <div className="status">{status}</div>
       <div className="board">
         {board.map((square, index) => (
